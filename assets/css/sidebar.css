@@ -15,7 +15,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   float: left;
-  width: 240px;
+  width: 250px;
   height: 100%;
   padding: 20px 10px;
   background-color: #ffffff;
@@ -166,7 +166,7 @@ footer .copyright {
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .sidebar {
     display: -webkit-box;
     display: -webkit-flex;
