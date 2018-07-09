@@ -992,6 +992,7 @@ table tfoot td {
 
 .post .post-content .post-date,
 .post .post-content .post-words {
+    text-align: left;
     font-size: 12px;
 }
 
@@ -1040,7 +1041,7 @@ a.newer-posts:hover {
 }
 
 .header-page {
-    text-align: center;
+    text-align: left;
     margin: 10px 0;
 }
 
