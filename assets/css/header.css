@@ -3,7 +3,6 @@
   color: #1a1b18;
   width: 100%;
   max-height: 70px;
-  font-family: sans-serif;
   position: relative;
   -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
@@ -14,30 +13,18 @@
 }
 
 .mainNav .lang {
+  float: right;
+  text-align: center;
   display: inline-block;
   text-transform: uppercase;
 }
 
 .mainNav .lang a {
   color: red;
+  height: auto;
   font-weight: bold;
   display: block;
-  margin: 0;
-  padding: 20px 15px;
-}
-
-.mainNav .logo:hover:before {
-  background: #292938;
-}
-.mainNav .logo:before {
-  background: #3C91E6;
-  z-index: -1;
-  /*POSITION*/
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  padding: 20px 18px 18px;
 }
 
 .mainNav .lang a:hover {
@@ -75,15 +62,15 @@
 .mainNav .navBars {
   display: inline-block;
   font-size: 1.7em;
-  float: left;
+  height: auto;
+  text-align: center;
   /*USER SELECTION*/
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   -webkit-user-select: none;
   font-weight: bold;
-  margin: 0;
-  padding: 20px 15px;
+  margin: 18px;
 }
 
 #xBxHack {
@@ -92,7 +79,6 @@
   position: absolute;
   top: -99999px;
 }
-
 
 .container {
   max-width: 100%;
@@ -108,11 +94,7 @@
     display: none;
   }
 
-  .mainNav .lang{
-    float: right;
-  }
-
-  .mainNav .lang a{
+  .mainNav .lang a {
     padding: 20px 15px;
   }
 
