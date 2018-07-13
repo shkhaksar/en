@@ -93,11 +93,14 @@ li {
 /*-----------------------------------------------------------------*/
 .header {
     background: #F2f2f2;
-    padding: 46px;
     position: fixed;
     height: 100%;
     width: 260px;
     z-index: 5;
+}
+
+.header .header-div{
+    padding: 46px;
 }
 
 .header .avatar {
@@ -1143,6 +1146,7 @@ li {
     }
 
     .main-content {
+        padding-top: 25px;
         width: 100%;
         -webkit-transition: all .3s ease-in-out;
         -moz-transition: all .3s ease-in-out;
