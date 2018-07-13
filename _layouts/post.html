@@ -3,20 +3,22 @@ layout: default
 comments: true
 ---
 {% include sidebar-post.html %}
-<div class="content-box clearfix">
+<div id="content" class="content-box clearfix">
     <article class="article-page">
         <div class="page-content">
             {% if page.img %}
             <div class="page-cover-image">
-                <img class="page-image" src="{{ '/assets/img/' | prepend: site.baseurl | append : page.img }}"
+                <img id="cover-image" class="page-image"
+                     src="{{ '/assets/img/' | prepend: site.baseurl | append : page.img }}"
                      alt="{{page.title}}"/>
             </div> <!-- End Page Cover Image -->
             {% else %}
             {% endif %}
             <div class="wrap-content">
                 <header class="header-page">
-                    <h1 class="page-title">{{page.title}}</h1>
-                    <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+                    <h1 id="page-title" class="page-title">{{page.title}}</h1>
+                    <div id="page-date" class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    </div>
                 </header>
                 {{content | markdownify}}
                 <div class="page-footer">
@@ -35,7 +37,7 @@ comments: true
                     </div>
                 </div>
                 {% if page.comments != false %}
-                     {% include disqus.html %}
+                {% include disqus.html %}
                 {% endif %}
             </div> <!-- End Wrap Content -->
         </div> <!-- End Page Content -->
