@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Comming Soon'
+title: 'Coming Soon'
 date: 1970-01-01 13:32:20
 img: i-rest.jpg # Add image post (optional)
 ---
