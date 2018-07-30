@@ -5,6 +5,8 @@ date: 2018-07-29 17:15:20
 img: '/posts/2018-07-29-writing.jpeg'
 ---
 
+Writing is a medium of human communication that represents language and emotion with signs and symbols.  - [Wikipedia](https://en.wikipedia.org/wiki/Writing)
+
 I believe that nothing like the above paragraph can describe “writing” and show the importance of it for humans. All of this aside, for me, there was another goal, which led me to create this Blog and writing posts. for two considerable reasons, writing posts turn out to be convincing for me.
 
 ### Personal Reasons:
