@@ -1042,6 +1042,15 @@ a.newer-posts:hover {
     margin-right: 30px;
 }
 
+.wrap-content p strong {
+    display: inline-block;
+    margin: 15px 10%;
+    text-align-last: center;
+    text-align: justify;
+    font-size: larger;
+    font-weight: 900;
+}
+
 .header-page {
     text-align: left;
     margin: 10px 0;
