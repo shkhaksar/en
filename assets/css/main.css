@@ -791,14 +791,6 @@ img {
     display: inline-block;
 }
 
-blockquote {
-    border-left: 5px solid #000;
-    padding-left: 1.1rem;
-    margin-left: 1rem;
-    font-style: italic;
-    color: #ada8a8;
-}
-
 pre {
     padding: 1rem 2rem;
     overflow-x: auto;
@@ -1043,10 +1035,15 @@ a.newer-posts:hover {
 }
 
 .wrap-content p strong {
+    font-weight: 900;
+}
+
+.post-content blockquote {
+    border: none;
+    font-style: italic;
+    color: #263959;
     display: inline-block;
-    margin: 15px 10%;
-    text-align-last: center;
-    text-align: justify;
+    margin: 0 15%;
     font-size: larger;
     font-weight: 900;
 }
@@ -1216,7 +1213,7 @@ a.newer-posts:hover {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
 
-    .wrap-content{
+    .wrap-content {
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -1250,6 +1247,12 @@ a.newer-posts:hover {
 
     .page-cover-image .page-image {
         max-height: 300px;
+    }
+
+    .post-content blockquote {
+        margin: 0 5%;
+        font-size: large;
+        font-weight: 600;
     }
 
 }
