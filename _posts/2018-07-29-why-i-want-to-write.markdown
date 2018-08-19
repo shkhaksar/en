@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Why I've decided to write?
-date: 2018-07-29 17:15:20
+title: Why I've Decided to Write?
+date: 2018-07-29 17:15:20 +4:30
 img: '/posts/2018-07-29-writing.jpeg'
 ---
 
